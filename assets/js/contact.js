@@ -16,7 +16,7 @@
             if (name && email && message) {
 
                 emailjs.send("service_3y24dzs","template_nlfnrvh", params);
-                $('#contact_form_submit').prepend('<span class="alert alert-danger email-success">Email sent successfully!</span>');
+                $('#contact_form_submit').prepend('<span class="alert alert-success email-success">Email sent successfully!</span>');
             } else {
                 $('#contact_form_submit').children('.email-success').remove();
                 $('#contact_form_submit').prepend('<span class="alert alert-danger email-success">All Fields are Required.</span>');
